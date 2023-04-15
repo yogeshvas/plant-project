@@ -186,7 +186,7 @@ p{
         padding: 8% 13%;
     }
 
-    @media (min-width:800px) {
+    @media (max-width:720px) {
         body{
             zoom:200%;
         }
