@@ -188,7 +188,7 @@ p{
 
     @media (max-width:990px) {
         body{
-            zoom:200%
+            zoom:200%;
         }
 #title{
     text-align: center;
