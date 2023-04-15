@@ -1,0 +1,199 @@
+body{
+    font-family: "Montserrat";
+}
+#title{
+    /* background-color: #7AA874; */
+    background-color: rgb(32, 30, 30);
+    padding-bottom: 88px; 
+    color: #fff;
+}
+
+.container-fluid{ 
+    padding: 1% 14%;
+}
+.navbar-brand{
+    font-family:'Montserrat'; 
+    font-weight: 800;
+}
+
+h1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family:'Montserrat'; 
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: #7AA874;;
+}
+
+h2{
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+.btn1{
+    margin-right:17px;
+}
+
+
+.navbar{
+    font-family:'Montserrat'; 
+    font-weight: 800;
+
+}
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-weight: 400;
+}
+
+
+
+#features{
+    padding: 7% 15%;
+    
+}
+
+.fbox{
+    text-align: center;
+    /* padding: 10%; */
+    
+}
+
+h3{
+    font-family:'Montserrat'; 
+    font-weight: bold;
+    
+}
+
+p{
+    color: #8f8f8f;
+}
+.icon{
+    margin-bottom: 1rem;
+    color: rgb(32 , 30, 30);
+}
+.icon:hover {
+    color: #6e6b6b;
+}
+
+/*  Testimonial  */
+
+#testimonials{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: rgb(32 , 30, 30);
+    color: white;
+}
+
+.testimonial-img{
+    width: 20%;
+    border-radius: 100%;
+    margin: 20px;
+
+}
+/* Press */
+#press{
+    background-color: rgb(32 , 30, 30);
+    text-align: center;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 5 0px;
+}
+
+
+/* 
+
+*/
+
+
+  
+
+
+    .searchbar{
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 45px;
+    /* background-color: #353b48; */
+    background-color: #7AA874;
+    border-radius: 50px;
+    padding: 12px 11px 10px 10px;
+    
+    }
+
+    .search_input{
+    color: white;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 0;
+    caret-color:transparent;
+    line-height: 20px;
+    transition: width 0.4s linear;
+    }
+
+    .searchbar:hover > .search_input{
+    padding: auto 10px;
+    width: 250px;
+    caret-color:rgb(32 , 30, 30);
+    transition: width 0.4s linear;
+    }
+
+    .searchbar:hover > .search_icon{
+    background: white;
+    color: rgb(32 , 30, 30);
+    }
+
+    .search_icon{
+    height: 20px;
+    width: 20px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color:white;
+    text-decoration:none;
+    }
+
+    .carousel-item{
+        height:500px;
+        text-align: center;
+        color: aliceblue;
+    }
+
+    .container-fluid1{
+        padding-top: 8%;
+       
+        padding-bottom: 5%;
+    }
+
+    .me{
+        margin-top: 5%;
+         width: 25%;
+        border-radius: 100%;
+    }
+
+    #pricing{
+        text-align: center;
+        padding: 8% 13%;
+    }
+
+    @media (max-width:990px) {
+
+
+#title{
+    text-align: center;
+}
+        
+    }
+
+#footer{
+    text-align: center;
+    padding: 5% 0;
+    background: color #f1f1f1;
+}
