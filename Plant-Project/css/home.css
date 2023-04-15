@@ -105,6 +105,9 @@ p{
     margin: 20px 20px 5 0px;
 }
 
+.card{
+    box-shadow: 0 5px 10px rgba(32,30,30,0.2)
+}
 
 /* 
 
@@ -184,7 +187,9 @@ p{
     }
 
     @media (max-width:990px) {
-
+body{
+            zoom:200%;
+        }
 
 #title{
     text-align: center;
